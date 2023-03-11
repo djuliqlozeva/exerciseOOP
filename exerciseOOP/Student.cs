@@ -8,5 +8,6 @@ namespace exerciseOOP
 {
     internal class Student
     {
+        
     }
 }
