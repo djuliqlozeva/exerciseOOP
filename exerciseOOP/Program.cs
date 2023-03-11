@@ -94,12 +94,12 @@ namespace exerciseOOP
         //methods, po podrazbirane e internal
         internal static  void PrintMessage()
         {
-            Console.WriteLine("Tova e obekt ot class Person");
+            Console.WriteLine("This is object of class Person");
         }
 
         public void PrintPersonInfo()
         {
-            Console.WriteLine($"{name} {family} e na {age} godini i e visok{height} m.");
+            Console.WriteLine($"{name} {family} is {age} years old and is {height} m.");
         }
 
     }
@@ -124,20 +124,20 @@ namespace exerciseOOP
 
             //if (p1.name == p2.name)
             //{
-            //    Console.WriteLine("suvpada");
+            //    Console.WriteLine("The names are same.");
             //}
             //else
             //{
-            //    Console.WriteLine(" ne suvpada");
+            //    Console.WriteLine("The names aren`t the same.");
             //}
 
             if (p3.Name == p4.Name)
             {
-                Console.WriteLine("Imenata suvpadat");
+                Console.WriteLine("The names are same.");
             }
             else
             {
-                Console.WriteLine("Imenata ne suvpadat");
+                Console.WriteLine("The names aren`t the same.");
             }
 
             p3.Name = "Ivan";
