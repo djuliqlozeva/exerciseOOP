@@ -8,5 +8,6 @@ namespace exerciseOOP.People
 {
     internal class Worker
     {
+        
     }
 }
