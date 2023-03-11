@@ -124,20 +124,20 @@ namespace exerciseOOP
 
             //if (p1.name == p2.name)
             //{
-            //    Console.WriteLine("The names are same.");
+            //    Console.WriteLine("TThe names match.");
             //}
             //else
             //{
-            //    Console.WriteLine("The names aren`t the same.");
+            //    Console.WriteLine("The names doesn`t match.");
             //}
 
             if (p3.Name == p4.Name)
             {
-                Console.WriteLine("The names are same.");
+                Console.WriteLine("The names match.");
             }
             else
             {
-                Console.WriteLine("The names aren`t the same.");
+                Console.WriteLine("The names doesn`t match.");
             }
 
             p3.Name = "Ivan";
